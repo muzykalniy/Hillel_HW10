@@ -178,6 +178,7 @@ body {
 }
 
 /* =============== */
+/* КНОПКА ПОСЛЕ ФОРМЫ */
 .button-block {
   margin-top: 29px;
   padding: 0;
@@ -197,3 +198,48 @@ body {
   box-shadow: 0 10px 27px -4px #db7093;
 }
 /* ====================== */
+/* ====================== */
+
+/* ФОРМЫ */
+.form-title.subtitle {
+  margin-top: 89.35px;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+.form-wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.form {
+  margin-top: 28px;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 34px;
+  min-width: 400px;
+  padding: 0 12px;
+  font-size: 16px;
+  color: #717171;
+}
+.form::placeholder {
+  color: inherit;
+  font-family: inherit;
+}
+.form__name,
+.form__surname,
+.form__email,
+.form__textarea {
+  background: #f3f3f3;
+  border: 0;
+}
+.form__textarea {
+  min-height: 113px;
+  resize: none;
+}
+/* ================ */
