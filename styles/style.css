@@ -243,3 +243,36 @@ body {
   resize: none;
 }
 /* ================ */
+/* ФУТЕР */
+.footer-wrapper {
+  margin-top: 68.35px;
+  padding-bottom: 26px;
+  background: #f3f3f3;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  font-size: 14px;
+  line-height: 32px;
+  color: #db7093;
+}
+.footer-items .nav .nav__item a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  color: #4a4a4a;
+}
+.footer-items .nav a:hover {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+.footer-button {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ================= */
