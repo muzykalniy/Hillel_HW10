@@ -13,28 +13,26 @@
 </head>
 
 <body>
-
 	<!-- =====HEADER======-->
 	<section class="header">
 		<div class="container">
 			<div class="header-wrapper">
 				<ul class="nav">
-					<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Home</a></li>
-					<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">About</a>
+					<li class="nav__item"><a href="#" target="_blank">Home</a></li>
+					<li class="nav__item"><a href="#" target="_blank">About</a>
 					</li>
-					<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Contact</a>
+					<li class="nav__item"><a href="#" target="_blank">Contact</a>
 					</li>
-					<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Products</a>
+					<li class="nav__item"><a href="#" target="_blank">Products</a>
 					</li>
 				</ul>
 				<div class="logo"><img class="logo__image" src="./images/Logo.png" alt="Логотип">
 				</div>
-				<div class="interactive">
-					<input class="field field_outlined" type="text" placeholder="Search...">
+				<div class="header-wrapper__form">
+					<input class="field field_outlined header__search-field" type="text" placeholder="Search...">
 					<button class="button button_filled">BUY 99$</button>
 				</div>
 			</div>
-		</div>
 		</div>
 	</section>
 
@@ -42,81 +40,82 @@
 	<!-- =======MAIN=========== -->
 	<section class="main">
 		<div class="container">
-			<div class="title">Some Product Site</div>
-			<div class="blocks-wrapper">
+			<div class="title main-title">Some Product Site</div>
+			<div class="blocks-wrapper main__blocks-wrapper">
 				<div class="content-wrapper">
-					<div class="content-wrapper__image">
+					<div class="content-wrapper__image content-wrapper__image_gap-right">
 						<img class="image" src="./images/image1.png" alt="Картиночка 1">
 					</div>
-					<div class="content__block">
+					<div class="content-block">
 						<div class="subtitle">Calvin Klein Obsession</div>
-						<div class="text">It is a long established fact that a reader will be distracted by the readable
+						<div class="text">It is a long established fact that a reader will be distracted by the
+							readable
 							content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
 							more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
 							making it look like readable English</div>
-						<div class="button-link-wrapper">
-							<button class="button button_filled">BUY 25$</button>
+						<div class="content-block__button">
+							<button class="button button_filled content-block__button_button-gap">BUY 25$</button>
 							<a class="link" href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank">Learn more</a>
 						</div>
 					</div>
 				</div>
-				<div class="content-wrapper">
-					<div class="content-wrapper__image">
+				<div class="content-wrapper content-wrapper_reverse-row">
+					<div class="content-wrapper__image content-wrapper__image_gap-left">
 						<img class="image" src="./images/image2.png" alt="Картиночка 2">
 					</div>
-					<div class="content__block">
+					<div class="content-block">
 						<div class="subtitle">Lorem Ipsum is simply dummy text</div>
-						<div class="text">It is a long established fact that a reader will be distracted by the readable
+						<div class="text">It is a long established fact that a reader will be distracted by the
+							readable
 							content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
 							more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
 							making it look like readable English</div>
-						<div class="button-link-wrapper">
-							<button class="button button_filled">BUY 32$</button>
+						<div class="content-block__button">
+							<button class="button button_filled content-block__button_button-gap">BUY 32$</button>
 							<a class="link" href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank">Learn more</a>
 						</div>
 					</div>
-
 				</div>
 				<div class="content-wrapper">
-					<div class="content-wrapper__image">
+					<div class="content-wrapper__image content-wrapper__image_gap-right">
 						<img class="image" src="./images/image3.png" alt="Картиночка 3">
 					</div>
-					<div class="content__block">
+					<div class="content-block">
 						<div class="subtitle">It has survived not only five centuries</div>
-						<div class="text">It is a long established fact that a reader will be distracted by the readable
+						<div class="text">It is a long established fact that a reader will be distracted by the
+							readable
 							content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
 							more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
 							making it look like readable English</div>
-						<div class="button-link-wrapper">
-							<button class="button button_filled">BUY 48$</button>
+						<div class="content-block__button">
+							<button class="button button_filled content-block__button_button-gap">BUY 48$</button>
 							<a class="link" href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank">Learn
 								more</a>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="button-block main_button-block">
+				<button class="button-block__button-link">View more products</button>
+			</div>
 		</div>
 	</section>
 	<!-- ======================= -->
 
-
-	<div class="button-block">
-		<button class="button-block__button-link">View more products</button>
-	</div>
 
 	<section class="section-form">
 		<div class="container">
 			<div class="form-title subtitle">Contact us</div>
 			<div class="form-wrapper">
 
-				<input class="form form__name" type=" text" name="Your name" placeholder="Name">
-				<input class="form form__surname" type="text" name="Your surname" placeholder="Surname">
-				<input class="form form__email" type="email" name="Your email" placeholder="Email">
-				<textarea class="form form__textarea" name="Message" id="textarea__message" cols="21" rows="7"
-					placeholder="Message"></textarea>
+				<input class="form form__style" type=" text" name="Your name" placeholder="Name">
+				<input class="form form__style form-wrapper_top-gap" type="text" name="Your surname" placeholder="Surname">
+				<input class="form form__style form-wrapper_top-gap" type="email" name="Your email" placeholder="Email">
+				<textarea class="form form__style form__textarea form-wrapper_top-gap" name="Message" id="textarea__message"
+					cols="21" rows="7" placeholder="Message"></textarea>
 			</div>
 
-			<div class="button-block">
+			<div class="button-block section-form_button-block">
 				<button class="button-block__button-link">Send message</button>
 			</div>
 		</div>
@@ -126,27 +125,23 @@
 		<div class="footer-wrapper">
 			<div class="container">
 				<div class="footer-items">
-					<div class="copyright">@Copyright 2016-2021 Some Product Site</div>
-					<div class="logo"><img class="logo__image" src="./images/Logo2.png" alt="Логотип">
+					<div class="footer-items__copyright">@Copyright 2016-2021 Some Product Site</div>
+					<div class="footer-items__logo"><img class="logo__image" src="./images/Logo2.png" alt="Логотип">
 					</div>
 					<ul class="nav">
-						<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Home</a>
+						<li class="nav__item nav__item_footer"><a href="#" target="_blank">Home</a>
 						</li>
-						<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">About</a>
+						<li class="nav__item nav__item_footer"><a href="#" target="_blank">About</a>
 						</li>
-						<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-								target="_blank">Contact</a>
+						<li class="nav__item nav__item_footer"><a href="#" target="_blank">Contact</a>
 						</li>
-						<li class="nav__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-								target="_blank">Products</a>
+						<li class="nav__item nav__item_footer"><a href="#" target="_blank">Products</a>
 						</li>
 					</ul>
 				</div>
 				<div class="footer-button"><button class="button button_filled">To Cart</button></div>
-
 			</div>
 		</div>
-
 	</section>
 	<!-- ======================== -->
 </body>
