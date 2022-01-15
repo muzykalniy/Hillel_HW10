@@ -11,6 +11,9 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+.section-title {
+  display: none;
+}
 /* ==========HEADER========== */
 .header {
   margin: 0;
